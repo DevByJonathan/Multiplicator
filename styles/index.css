@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "myfontbold";
+  src: url(../fonts/BlinkMacSystemFont-Bold.woff);
+  src: url(../fonts/BlinkMacSystemFont-Bold.woff2);
+}
+@font-face {
+  font-family: myfontregular;
+  src: url(../fonts/BlinkMacSystemFont-Regular.woff);
+  src: url(../fonts/BlinkMacSystemFont-Regular.woff2);
+}
+@font-face {
+  font-family: myfontsemibold;
+  src: url(../fonts/BlinkMacSystemFont-Semibold.woff);
+  src: url(../fonts/BlinkMacSystemFont-Semibold.woff2);
+}
+
+.form {
+  padding: 30px 30px 30px 30px;
+}
+body {
+  text-align: center;
+  min-width: 320px 768px 1200px;
+  height: auto;
+  margin: 0px 20px 20px 20px;
+  background-color: #ffffff;
+
+  border: 5px solid #000000;
+  font-family: "myfontregular";
+}
+.firstNumber,
+.secondNumber {
+  text-align: center;
+  font-size: 20px;
+}
+.secondNumber {
+  margin: 10px 0 0 0;
+}
+button {
+  margin: 10px 0 0 0;
+  text-align: center;
+  font-size: 25px;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 60px;
+  text-align: center;
+}
+html {
+  font-size: 15px;
+}
+input {
+  font-size: 15px;
+}
+#result {
+  font-family: "myfontsemibold";
+  font-weight: 500;
+}
